@@ -1,0 +1,13 @@
+[package]
+name = "llm-tool-registry"
+version = "0.1.0"
+edition = "2021"
+description = "Registry of available tools with schema for LLM agents"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/llm-tool-registry-rs"
+keywords = ["llm", "agent", "tools", "registry", "schema"]
+categories = ["development-tools"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+serde_json = "1"
